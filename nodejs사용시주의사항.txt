@@ -1,0 +1,5 @@
+nodejs 사용해야할때와 하지 말아야할때
+
+사용해야할때 - file upload/download와같은 network streaming 서비스, real time web application(채팅 서비스),single page app 개발
+
+사용하지말아야할때 - CRUD가 많고 페이지가 많은 웹개발에 부적절, 초보자에게 부적절
