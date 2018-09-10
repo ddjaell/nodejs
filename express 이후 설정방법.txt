@@ -1,0 +1,17 @@
+이 외의 모듈을 설치하고 싶다면
+
+
+ npm install [module이름]   ------해당 디렉토리 안에서
+
+
+
+설치할 모듈을 package.json의 dependency에 넣고 싶다면 --save 옵션을 붙이면 된다.
+
+npm install express --save
+
+
+
+
+참고로 설치된 패키지를 지우고 싶을때는 install 대신에 uninstall을 쓰면 된다.
+
+npm uninstall express --save

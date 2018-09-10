@@ -1,0 +1,21 @@
+express -c sass -e [디렉토리명(프로젝트명)]
+
+후
+
+cd project_todo && npm install 할때
+
+MSBUILD : error MSB3428: Visual C++ 구성 요소 "VCBuild.exe"을(를) 로드할 수 없습니다. 이 문제를 해결하려면 1) .NET Framework 2.0 SDK를 설치하거나, 2) Microsoft Visual Studio 2005를 설치하거나, 3) 해당 구성 요소가 다른 위치에 설치되어 있는  경우에는 그 위치를
+ 시스템 경로에 추가하십시오.  [C:\Users\jae\project_todo\node_modules\node-sass\build\binding.sln]
+와 같은 에러가 나면
+
+npm install --global --production windows-build-tools로 windows-build-tools를 설치한뒤
+
+npm install을 하면 빌드가 된다.
+
+
+---------------------------------------------------
+cd project_todo && npm install 할때
+
+Python관련 오류날때,
+
+Python2와 3이 둘다 깔려있고 Path에 각 Python 경로를 설정하지 않고 
